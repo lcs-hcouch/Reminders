@@ -19,6 +19,8 @@
 		04BE02E32799C45400B1B48A /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E12799C45400B1B48A /* TaskPriority.swift */; };
 		04BE02E52799C4AA00B1B48A /* Task Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E42799C4AA00B1B48A /* Task Store.swift */; };
 		04BE02E62799C4AA00B1B48A /* Task Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E42799C4AA00B1B48A /* Task Store.swift */; };
+		04BE02EB2799CDF800B1B48A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02EA2799CDF800B1B48A /* TaskCell.swift */; };
+		04BE02EC2799CDF800B1B48A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02EA2799CDF800B1B48A /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		04BE02DE2799C3DD00B1B48A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		04BE02E12799C45400B1B48A /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
 		04BE02E42799C4AA00B1B48A /* Task Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Store.swift"; sourceTree = "<group>"; };
+		04BE02EA2799CDF800B1B48A /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				04BE02BF2799C24000B1B48A /* ContentView.swift */,
+				04BE02EA2799CDF800B1B48A /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +212,7 @@
 				04BE02D02799C24D00B1B48A /* ContentView.swift in Sources */,
 				04BE02DF2799C3DD00B1B48A /* Task.swift in Sources */,
 				04BE02E22799C45400B1B48A /* TaskPriority.swift in Sources */,
+				04BE02EB2799CDF800B1B48A /* TaskCell.swift in Sources */,
 				04BE02CE2799C24D00B1B48A /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +225,7 @@
 				04BE02D12799C24D00B1B48A /* ContentView.swift in Sources */,
 				04BE02E02799C3DD00B1B48A /* Task.swift in Sources */,
 				04BE02E32799C45400B1B48A /* TaskPriority.swift in Sources */,
+				04BE02EC2799CDF800B1B48A /* TaskCell.swift in Sources */,
 				04BE02CF2799C24D00B1B48A /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
