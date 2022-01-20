@@ -13,6 +13,12 @@
 		04BE02D12799C24D00B1B48A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02BF2799C24000B1B48A /* ContentView.swift */; };
 		04BE02D22799C24D00B1B48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE02C02799C24D00B1B48A /* Assets.xcassets */; };
 		04BE02D32799C24D00B1B48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE02C02799C24D00B1B48A /* Assets.xcassets */; };
+		04BE02DF2799C3DD00B1B48A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02DE2799C3DD00B1B48A /* Task.swift */; };
+		04BE02E02799C3DD00B1B48A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02DE2799C3DD00B1B48A /* Task.swift */; };
+		04BE02E22799C45400B1B48A /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E12799C45400B1B48A /* TaskPriority.swift */; };
+		04BE02E32799C45400B1B48A /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E12799C45400B1B48A /* TaskPriority.swift */; };
+		04BE02E52799C4AA00B1B48A /* Task Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E42799C4AA00B1B48A /* Task Store.swift */; };
+		04BE02E62799C4AA00B1B48A /* Task Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE02E42799C4AA00B1B48A /* Task Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,9 @@
 		04BE02C52799C24D00B1B48A /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE02CB2799C24D00B1B48A /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE02CD2799C24D00B1B48A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		04BE02DE2799C3DD00B1B48A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		04BE02E12799C45400B1B48A /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
+		04BE02E42799C4AA00B1B48A /* Task Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Store.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,9 @@
 		04BE02DC2799C2A300B1B48A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04BE02DE2799C3DD00B1B48A /* Task.swift */,
+				04BE02E12799C45400B1B48A /* TaskPriority.swift */,
+				04BE02E42799C4AA00B1B48A /* Task Store.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,7 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BE02E52799C4AA00B1B48A /* Task Store.swift in Sources */,
 				04BE02D02799C24D00B1B48A /* ContentView.swift in Sources */,
+				04BE02DF2799C3DD00B1B48A /* Task.swift in Sources */,
+				04BE02E22799C45400B1B48A /* TaskPriority.swift in Sources */,
 				04BE02CE2799C24D00B1B48A /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,7 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BE02E62799C4AA00B1B48A /* Task Store.swift in Sources */,
 				04BE02D12799C24D00B1B48A /* ContentView.swift in Sources */,
+				04BE02E02799C3DD00B1B48A /* Task.swift in Sources */,
+				04BE02E32799C45400B1B48A /* TaskPriority.swift in Sources */,
 				04BE02CF2799C24D00B1B48A /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
